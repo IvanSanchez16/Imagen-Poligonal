@@ -14,11 +14,13 @@ class PanelGraficos extends Canvas{
         int[] x6=new int[6],y6=new int[6];
         int[] x7=new int[7],y7=new int[7];
         int[] x8=new int[8],y8=new int[8];
-
+        int[] x9=new int[9],y9=new int[9];
+        int[] x12=new int[12],y12=new int[12];
+        int[] x13=new int[13],y13=new int[13];
         Color c;
 
         Graphics2D g2d=(Graphics2D)g;
-        g2d.setPaint(new GradientPaint(0, 0, new Color(221,137,90), 0, 720,Color.WHITE));
+        g2d.setPaint(new GradientPaint(640, 0, new Color(217,131,74), 640, 1420,Color.WHITE));
         g2d.fillRect(0, 0, 1280, 720);
 
         c=new Color(243,233,224);
@@ -220,6 +222,261 @@ class PanelGraficos extends Canvas{
         x3[2]=297; y3[2]=125;
         g.setColor(c);
         g.fillPolygon(x3,y3,x3.length);
+
+        x3[0]=297; y3[0]=89;
+        x3[1]=209; y3[1]=170;
+        x3[2]=257; y3[2]=143;
+        g2d.setPaint(new GradientPaint(297,89, new Color(251,240,238), 261,127,new Color(255,218,152)));
+        g2d.fillPolygon(x3,y3,x3.length);
+
+        c=new Color(248,235,218);
+        x4[0]=257; y4[0]=143;
+        x4[1]=207; y4[1]=169;
+        x4[2]=205; y4[2]=187;
+        x4[3]=225; y4[3]=181;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+        c=new Color(253,242,186);
+        x4[0]=207; y4[0]=172;
+        x4[1]=207; y4[1]=191;
+        x4[2]=164; y4[2]=189;
+        x4[3]=158; y4[3]=175;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+        x9[0]=204; y9[0]=183;
+        x9[1]=226; y9[1]=180;
+        x9[2]=263; y9[2]=173;
+        x9[3]=314; y9[3]=172;
+        x9[4]=313; y9[4]=201;
+        x9[5]=250; y9[5]=207;
+        x9[6]=211; y9[6]=207;
+        x9[7]=193; y9[7]=199;
+        x9[8]=191; y9[8]=191;
+        g2d.setPaint(new GradientPaint(311,188, new Color(254,186,139), 206,195,new Color(255,198,155)));
+        g2d.fillPolygon(x9,y9,x9.length);
+
+        x13[0]=112; y13[0]=124;
+        x13[1]=170; y13[1]=189;
+        x13[2]=177; y13[2]=192;
+        x13[3]=156; y13[3]=210;
+        x13[4]=151; y13[4]=200;
+        x13[5]=140; y13[5]=215;
+        x13[6]=135; y13[6]=206;
+        x13[7]=133; y13[7]=208;
+        x13[8]=97; y13[8]=195;
+        x13[9]=102; y13[9]=159;
+        x13[10]=114; y13[10]=151;
+        x13[11]=116; y13[11]=155;
+        x13[12]=127; y13[12]=147;
+        g2d.setPaint(new GradientPaint(187,162, new Color(229,151,129), 96,187,new Color(253,188,158)));
+        g2d.fillPolygon(x13,y13,x13.length);
+
+        x12[0]=112; y12[0]=124;
+        x12[1]=127; y12[1]=147;
+        x12[2]=116; y12[2]=155;
+        x12[3]=114; y12[3]=151;
+        x12[4]=102; y12[4]=159;
+        x12[5]=93; y12[5]=235;
+        x12[6]=80; y12[6]=230;
+        x12[7]=83; y12[7]=181;
+        x12[8]=79; y12[8]=175;
+        x12[9]=84; y12[9]=166;
+        x12[10]=82; y12[10]=163;
+        x12[11]=77; y12[11]=165;
+        g2d.setPaint(new GradientPaint(125,115, new Color(251,245,213), 75,239,new Color(253,237,116)));
+        g2d.fillPolygon(x12,y12,x12.length);
+
+        c=new Color(127,68,38);
+        x4[0]=58; y4[0]=155;
+        x4[1]=76; y4[1]=172;
+        x4[2]=73; y4[2]=193;
+        x4[3]=48; y4[3]=169;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+        c=new Color(122,64,33);
+        x4[0]=48; y4[0]=169;
+        x4[1]=73; y4[1]=193;
+        x4[2]=77; y4[2]=229;
+        x4[3]=39; y4[3]=218;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+        c=new Color(251,108,6);
+        x4[0]=58; y4[0]=155;
+        x4[1]=48; y4[1]=169;
+        x4[2]=0; y4[2]=222;
+        x4[3]=0; y4[3]=208;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+        c=new Color(255,139,3);
+        x3[0]=48; y3[0]=169;
+        x3[1]=0; y3[1]=240;
+        x3[2]=0;  y3[2]=222;
+        g.setColor(c);
+        g.fillPolygon(x3,y3,x3.length);
+
+        c=new Color(255,129,18);
+        x4[0]=48; y4[0]=169;
+        x4[1]=39; y4[1]=219;
+        x4[2]=0; y4[2]=278;
+        x4[3]=0; y4[3]=240;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+        c=new Color(255,151,38);
+        x4[0]=39; y4[0]=219;
+        x4[1]=29; y4[1]=289;
+        x4[2]=0; y4[2]=333;
+        x4[3]=0; y4[3]=278;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+        c=new Color(218,85,52);
+        x3[0]=39; y3[0]=218;
+        x3[1]=29; y3[1]=289;
+        x3[2]=98;  y3[2]=235;
+        g.setColor(c);
+        g.fillPolygon(x3,y3,x3.length);
+
+        c=new Color(255,138,51);
+        x6[0]=135; y6[0]=206;
+        x6[1]=128; y6[1]=218;
+        x6[2]=19; y6[2]=411;
+        x6[3]=0; y6[3]=426;
+        x6[4]=0; y6[4]=333;
+        x6[5]=29; y6[5]=289;
+        g.setColor(c);
+        g.fillPolygon(x6,y6,x6.length);
+
+        c=new Color(253,192,138);
+        x4[0]=97; y4[0]=195;
+        x4[1]=135; y4[1]=206;
+        x4[2]=98; y4[2]=235;
+        x4[3]=93; y4[3]=235;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+        c=new Color(255,161,63);
+        x3[0]=128; y3[0]=218;
+        x3[1]=119; y3[1]=333;
+        x3[2]=8;  y3[2]=475;
+        g.setColor(c);
+        g.fillPolygon(x3,y3,x3.length);
+
+        c=new Color(254,143,71);
+        x3[0]=128; y3[0]=218;
+        x3[1]=8; y3[1]=475;
+        x3[2]=19;  y3[2]=411;
+        g.setColor(c);
+        g.fillPolygon(x3,y3,x3.length);
+
+        c=new Color(253,163,75);
+        x4[0]=19; y4[0]=411;
+        x4[1]=8; y4[1]=475;
+        x4[2]=0; y4[2]=481;
+        x4[3]=0; y4[3]=426;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+        c=new Color(248,135,77);
+        x3[0]=119; y3[0]=333;
+        x3[1]=0; y3[1]=506;
+        x3[2]=0;  y3[2]=481;
+        g.setColor(c);
+        g.fillPolygon(x3,y3,x3.length);
+
+        c=new Color(252,167,76);
+        x4[0]=119; y4[0]=333;
+        x4[1]=110; y4[1]=421;
+        x4[2]=0; y4[2]=511;
+        x4[3]=0; y4[3]=506;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+        c=new Color(247,118,78);
+        x3[0]=110; y3[0]=421;
+        x3[1]=0; y3[1]=527;
+        x3[2]=0;  y3[2]=511;
+        g.setColor(c);
+        g.fillPolygon(x3,y3,x3.length);
+
+        c=new Color(248,155,77);
+        x4[0]=110; y4[0]=421;
+        x4[1]=100; y4[1]=495;
+        x4[2]=0; y4[2]=538;
+        x4[3]=0; y4[3]=527;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+        c=new Color(85,48,40);
+        x5[0]=135; y5[0]=206;
+        x5[1]=158; y5[1]=245;
+        x5[2]=155; y5[2]=250;
+        x5[3]=170; y5[3]=302;
+        x5[4]=128; y5[4]=218;
+        g.setColor(c);
+        g.fillPolygon(x5,y5,x5.length);
+
+        x6[0]=128; y6[0]=218;
+        x6[1]=170; y6[1]=302;
+        x6[2]=170; y6[2]=322;
+        x6[3]=153; y6[3]=339;
+        x6[4]=153; y6[4]=364;
+        x6[5]=119; y6[5]=333;
+        g2d.setPaint(new GradientPaint(167,363, new Color(96,64,75), 125,234,new Color(116,68,56)));
+        g2d.fillPolygon(x6,y6,x6.length);
+
+        x6[0]=119; y6[0]=333;
+        x6[1]=172; y6[1]=381;
+        x6[2]=159; y6[2]=412;
+        x6[3]=157; y6[3]=430;
+        x6[4]=170; y6[4]=437;
+        x6[5]=110; y6[5]=421;
+        g2d.setPaint(new GradientPaint(163,434, new Color(96,64,75), 124,345,new Color(116,68,56)));
+        g2d.fillPolygon(x6,y6,x6.length);
+
+        c=new Color(175,95,86);
+        x8[0]=110; y8[0]=420;
+        x8[1]=170; y8[1]=437;
+        x8[2]=178; y8[2]=464;
+        x8[3]=176; y8[3]=476;
+        x8[4]=198; y8[4]=492;
+        x8[5]=223; y8[5]=477;
+        x8[6]=220; y8[6]=499;
+        x8[7]=100; y8[7]=495;
+        g.setColor(c);
+        g.fillPolygon(x8,y8,x8.length);
+
+        c=new Color(249,147,83);
+        x4[0]=100; y4[0]=495;
+        x4[1]=93; y4[1]=548;
+        x4[2]=0;  y4[2]=553;
+        x4[3]=0;  y4[3]=538;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+        c=new Color(230,112,84);
+        x4[0]=100; y4[0]=495;
+        x4[1]=220; y4[1]=499;
+        x4[2]=217;  y4[2]=531;
+        x4[3]=93;  y4[3]=548;
+        g.setColor(c);
+        g.fillPolygon(x4,y4,x4.length);
+
+//        c=new Color(127,68,38);
+//        x7[0]=58; y7[0]=155;
+//        x7[1]=76; y7[1]=172;
+//        x7[2]=73; y7[2]=193;
+//        x7[3]=80; y7[3]=200;
+//        x7[4]=77; y7[4]=229;
+//        x7[5]=39; y7[5]=218;
+//        x7[6]=48; y7[6]=169;
+//        g.setColor(c);
+//        g.fillPolygon(x7,y7,x7.length);
     }
 }
 
